@@ -57,9 +57,8 @@ RUN mkdir /data /config
 VOLUME ["/data", "/config"]
 
 # Overwrite this with 'CMD []' in a dependent Dockerfile
-ENTRYPOINT ["Distance2Self.py]
+ENTRYPOINT ["Distance2Self.py"]
 CMD ["-h"]
-
 
 # change workdir
 WORKDIR /data
