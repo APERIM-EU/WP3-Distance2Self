@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/APERIM-EU/WP3-Distance2Self.svg)](https://travis-ci.org/APERIM-EU/WP3-Distance2Self) 
+
+
 # WP3 - Distance2Self
 Software package for proteome based distance calculation of a peptide query. The software is pre-packaged
 as docker image and can be pull with:
