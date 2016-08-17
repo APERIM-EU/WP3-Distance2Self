@@ -21,7 +21,7 @@ http://aperim.eu
 
 # Contact
 
-Benjamin Schubert
-schubert@informatik.uni-tuebingen.de
-University of Tübingen, Applied Bioinformatics,
-Sand 14, 72076 Tübingen, Germany
+Benjamin Schubert   
+schubert@informatik.uni-tuebingen.de   
+University of Tübingen, Applied Bioinformatics  
+Sand 14, 72076 Tübingen, Germany   
