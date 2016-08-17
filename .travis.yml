@@ -1,0 +1,17 @@
+#Continiues Docker image deploiment of APERIMs EpitopeSelector
+sudo: required
+
+services:
+  - docker
+
+install:
+  - docker build -t aperim/dist2self docker/
+
+script:
+ docker run aperim/dist2self -h
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+    docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+    docker push aperim/dist2self;
+    fi
